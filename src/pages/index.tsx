@@ -1,7 +1,11 @@
+import Banner from "@/components/Banner"
+
 export default function Home() {
   return (
     <main>
-      <div className="py-10 bg-gray-300">Next HomPage</div>
+      <div className="max-w-screen-2x1 mx-auto">
+        <Banner />
+      </div>
     </main>
   )
 }
