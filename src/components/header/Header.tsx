@@ -34,20 +34,20 @@ const Header = () => {
     }
   }, [session]);
 
-  // Search area
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filteredProducts, setFilteredProducts] = useState([]);
+ // Search area
+ const [searchQuery, setSearchQuery] = useState("");
+ const [filteredProducts, setFilteredProducts] = useState([]);
 
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-  };
+ const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+   setSearchQuery(e.target.value);
+ };
 
-  useEffect(() => {
-    const filtered = allData.filter((item: StoreProduct) =>
-      item.title.toLocaleLowerCase().includes(searchQuery.toLowerCase())
-    );
-    setFilteredProducts(filtered);
-  }, [searchQuery]);
+ useEffect(() => {
+   const filtered = allData.filter((item: StoreProduct) =>
+     item.title.toLocaleLowerCase().includes(searchQuery.toLowerCase())
+   );
+   setFilteredProducts(filtered);
+ }, [searchQuery]);
 
   // console.log(productData, favoriteData);
     return (
@@ -149,7 +149,8 @@ const Header = () => {
           </div>
           )}
           {/* fovorite */}
-          <div
+          <Link
+            href={"/favorite"}
             className="text-xs text-gray-100 flex flex-col justify-center px-2 border border-transparent hover:border-white cursor-pointer duration-300 h-[70%] relative"
           >
             <p>Marked</p>
@@ -159,7 +160,7 @@ const Header = () => {
                 {favoriteData.length}
               </span>
             )}
-          </div>
+          </Link>
           {/* cart */}
           <Link
             href={"/cart"}
