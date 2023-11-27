@@ -43,7 +43,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const filtered = favoriteData.filter((item: StoreProduct) =>
+    const filtered = allData.filter((item: StoreProduct) =>
       item.title.toLocaleLowerCase().includes(searchQuery.toLowerCase())
     );
     setFilteredProducts(filtered);
