@@ -23,7 +23,7 @@ https://github.com/skdksldk/next-amazon/assets/85090323/ad39fe89-135c-40cd-959f-
 
 ### 2. 로그인
 
-![로그인](https://github.com/skdksldk/Sea-Blog/assets/85090323/1e716764-9263-4a62-ab3f-4b2cd8ad7eec)
+![3](https://github.com/skdksldk/next-amazon/assets/85090323/c661d69f-fd3a-45b3-a9b2-754745652975)
 
 - next-auth 라이브러리를 이용해 Oauth-Google login을 할수 있습니다.
 
