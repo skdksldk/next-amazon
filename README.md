@@ -1,3 +1,51 @@
+# Next-Amazon
+
+## 프로젝트 설명
+Next-Amazon은 이전에 제작했던 kakao를 기반으로 next.js와 typescript를 추가해서 만든 쇼핑몰입니다.
+- nextjs를 통해 서버 사이드 렌더링을 공부하게 되었고 typescript를 지원할수 있게 되었음을 알게 되었습니다.
+- typescript를 통해 에러를 사전에 알수 있으며 interface를 통해 상태관리 및 각 쇼핑물에 객체를 정의할수 있었으며 이를 통해 코드를 작성하는 시간을 줄었습니다. 
+- stipe 결제 라이브러리를 통해 장바구니에 있는 쇼핑물들을 결제할수 있습니다.
+- next-auth 라이브러리를 통해 Oauth Google login 기능을 첨부해 구글을 통한 로그인을 할수 있습니다.
+
+### 🏃 구성원
+- Frontend<br/>
+  - 김준수(Next.js 13)
+  - 사용 기술 : `Next.js 13`, `typescript`, `Redux`, `Stripe`, `Next-auth`, `Tailwind CSS`
+ 
+## 🔎 기능 설명
+
+### 1. 메인페이지
+![1](https://github.com/skdksldk/next-amazon/assets/85090323/6950fa5a-7e31-428d-9ad2-ee9a407c7e2c)
+
+![2](https://github.com/skdksldk/next-amazon/assets/85090323/b1149dd7-0230-4e69-9a88-b5d03e3292f9)
+
+https://github.com/skdksldk/next-amazon/assets/85090323/ad39fe89-135c-40cd-959f-60e675428ea4
+
+### 2. 로그인
+
+![로그인](https://github.com/skdksldk/Sea-Blog/assets/85090323/1e716764-9263-4a62-ab3f-4b2cd8ad7eec)
+
+- next-auth 라이브러리를 이용해 Oauth-Google login을 할수 있습니다.
+
+### 3. 장바구니
+
+![4](https://github.com/skdksldk/next-amazon/assets/85090323/861e2593-4f4c-4db7-99d5-2d674510ce21)
+
+- Redux를 통해 상태관리로 메인 페이지의 add to cart 버튼으로 쇼핑물을 장바구니 페이지로 이동할수 있습니다.
+- 로그인이 되어 있지 않은 경우 로그인을 해야 한다는 안내문이 뜹니다.
+
+ ### 4. 결재
+
+![5](https://github.com/skdksldk/next-amazon/assets/85090323/8117fd5e-b2c1-466b-8961-7a47ee4f64c5)
+
+- Stripe 라이브러리로 장바구니에 있는 쇼핑물을 결재 할 수있습니다. 결재가 왼료된후 go to shopping 안내문이 뜨면서 초기회됩니다.
+
+
+## 💻 배포 링크
+
+[Amazon](https://next-amazon-lyart.vercel.app/)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
