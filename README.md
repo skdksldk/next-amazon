@@ -47,9 +47,9 @@ https://github.com/skdksldk/next-amazon/assets/85090323/ad39fe89-135c-40cd-959f-
 
 ## 💻 출처 자료
 
-[Redux](https://velog.io/@skdksldk2/Redux%EB%A1%9C-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%ED%95%98%EA%B8%B0)
-[Typescript](https://velog.io/@skdksldk2/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
-[Next-Auth](https://velog.io/@skdksldk2/Next-Auth)
+[Redux](https://velog.io/@skdksldk2/Redux%EB%A1%9C-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%ED%95%98%EA%B8%B0) <br/>
+[Typescript](https://velog.io/@skdksldk2/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8) <br/>
+[Next-Auth](https://velog.io/@skdksldk2/Next-Auth) <br/>
 [Stripe](https://velog.io/@skdksldk2/Stripe)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
